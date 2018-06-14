@@ -1,11 +1,11 @@
 import './assets/styles/normalize.v8.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App/App';
+import Line from './components/App/Line';
 
 import data from './data.json';
 
 
 
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Line />, document.getElementById('root'));

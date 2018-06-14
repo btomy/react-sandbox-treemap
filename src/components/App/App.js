@@ -79,18 +79,18 @@ class App extends Component {
 
 
     const treeData = this.state.treeData;
-  if (!treeData) return null;
+    if (!treeData) return null;
 
-  const levels = [{
-    level: 1,
-    dataLabels: {
-      enabled: true
-    },
-    borderWidth: 3
-  }];
-  const tooltipFormatter = function () {
-    return `${this.key}: ${this.point.value}`;
-  };
+    const levels = [{
+      level: 1,
+      dataLabels: {
+        enabled: true
+      },
+      borderWidth: 3
+    }];
+    const tooltipFormatter = function () {
+      return `${this.key}: ${this.point.value}`;
+    };
     
     return (
       <div className="app">
